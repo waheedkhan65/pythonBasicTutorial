@@ -1,5 +1,5 @@
 w = [1, 2, 44, 55, 211,99]
-
+# The important List Methods
 # w.append(101)
 # w.sort(reverse=True)
 # w.reverse()
