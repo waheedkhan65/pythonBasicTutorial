@@ -7,8 +7,11 @@ w = [1, 2, 44, 55, 211,99]
 # print(w.count(55))
 # w.insert(1, 33)
 
+
+
+
 '''l = w.copy()
 l[0] = 55555
 print(l)'''
-
+# w.extend(778)
 print(w)
