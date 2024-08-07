@@ -19,13 +19,16 @@ num = int(input("Enter number of operation what you want\n 1. adding \n 2. subtr
 if (num == 1):
  print ("The value of",a,"+",b,"is = ",add(a,b))
 
-if (num == 2):
- print ("The value of",a,"-",b,"is = ",sub(a,b))
+elif (num == 2):
+  print ("The value of",a,"-",b,"is = ",sub(a,b))
 
-if (num == 3):
+elif (num == 3): 
  print ("The value of",a,"/",b,"is = ",div(a,b))
 
-if (num == 4):
+elif (num == 4):
  print ("The value of",a,"x",b,"is = ",mult(a,b))
 
+else:
+  print("invalid input , Please choose a number between 1 and 4. ")
+  continue
 
