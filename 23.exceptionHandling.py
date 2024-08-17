@@ -11,8 +11,9 @@ try:
     print(f"{num} x {i} = {int(num)*i}")
 except:
   print("Invalid input")
+finally:
+  print("This will executed always ")
  
  
 
 
- 
